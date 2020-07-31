@@ -96,9 +96,9 @@ def distance_measure_module():
 
 def send_sms_module():
     url = "https://www.fast2sms.com/dev/bulk"
-    payload = "sender_id=FSTSMS&message=Switching off TV in 15 sec&language=english&route=p&numbers=9168106033"
+    payload = "sender_id=FSTSMS&message=Switching off TV in 15 sec&language=english&route=p&numbers=YOUR_MOBILE_NUMBER"
     headers = {
-    'authorization': "p5wDW4hd3mOt8CR9LGkYFzET1lVKoZNrfqQ0j2cMHJaByxeISssxY2mdeVPKR01oL3hqvM9g7bGarD4J",
+    'authorization': "*****Authorization Key(You will get it once you register yourself on fast2sms.com)*****",
     'Content-Type': "application/x-www-form-urlencoded",
     'Cache-Control': "no-cache",
     }
